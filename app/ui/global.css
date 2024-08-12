@@ -16,3 +16,26 @@ input[type="number"]::-webkit-outer-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
 }
+
+.__container__ {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex: 1;
+}
+
+footer {
+	background-color: #f1f1f1;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.subtitle {
+	margin-top: 30px;
+	font-weight: bold;
+	text-align: center;
+}
